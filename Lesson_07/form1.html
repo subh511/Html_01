@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <form>
-    <h1>User Registration</h1>
-    <label for="fname">Username:</label>
-    <input type="text" id="fname" required placeholder="Username"/>
-    <br>
-    <br>
-    <label for="email">Email:</label>
-    <input type="email" id="email" required placeholder="Email"/>
-    <br>
-    <br>
-    <label for="password">Paswword:</label>
-    <input type="password" id="password" required placeholder="Password"/>
-    <br>
-    <br>
-    <label for="gender">Gender:</label>
-    <input type="radio" required id="male">
-    <label for="male">Male</label>
-    <input type="radio" required id="female">
-    <label for="female">Female</label>
-    <br>
-    <br>
-    <input type="checkbox" />
-    <label for="checkbox">I agree to the terms and conditions.</label>
-    <br>
-    <br>
-    <button>Register</button>
-  </form>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <h1>User Registration</h1>
+      <label for="fname">Username:</label>
+      <input type="text" id="fname" required placeholder="Username" />
+      <br />
+      <br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" required placeholder="Email" />
+      <br />
+      <br />
+      <label for="password">Paswword:</label>
+      <input type="password" id="password" required placeholder="Password" />
+      <br />
+      <br />
+      <label for="gender">Gender:</label>
+      <input type="radio" required id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" required id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+      <input type="radio" required id="other" name="gender" value="other" />
+      <label for="other">Other</label>
+      <br />
+      <br />
+      <input type="checkbox" id="checkbox" name="gender" />
+      <label for="checkbox">I agree to the terms and conditions.</label>
+      <br />
+      <br />
+      <button>Register</button>
+    </form>
+  </body>
 </html>
