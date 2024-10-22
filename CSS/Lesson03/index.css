@@ -1,10 +1,17 @@
 /* viewport */
 
 /* % of viewPort width */
-/* viewport height */
+
 h1{
   font-size: 10vw;
+  font-weight: 100;
+  font-style: italic;
 }
+
+/* viewport height */
+/* font style */
 h2{
   font-size: 10vh;
+  font-style: italic;
+  font-weight: 100;
 }
